@@ -25,7 +25,7 @@
 					/></a>
 				</div>
 
-				<nav role="primary-navigation">
+				<nav role="navigation" aria-label="main-navigation">
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About</a></li>
@@ -38,7 +38,10 @@
 					<button type="button">Request Invite</button>
 				</div>
 				<div id="mobile__nav__icon" style="display: none">
-					<img src="/images/icon-hamburger.svg" alt="" />
+					<img
+						src="/images/icon-hamburger.svg"
+						alt="hamburger menu icon"
+					/>
 				</div>
 			</div>
 		</header>
@@ -49,7 +52,7 @@
 					id="mobile__nav__menu"
 					style="opacity: 0; visibility: hidden"
 				>
-					<nav role="primary-mobile-navigation">
+					<div role="navigation" aria-label="mobile-navigation">
 						<ul>
 							<li><a href="##">Home</a></li>
 							<li><a href="##">About</a></li>
@@ -57,7 +60,7 @@
 							<li><a href="##">Blog</a></li>
 							<li><a href="##">Careers</a></li>
 						</ul>
-					</nav>
+					</div>
 				</div>
 				<div id="hero__wrap">
 					<div id="hero__text">
@@ -291,7 +294,7 @@
 						></a>
 					</div>
 				</div>
-				<nav role="footer-navigation">
+				<div role="navigation" aria-label="footer-navigation">
 					<ul>
 						<li><a href="#">About Us</a></li>
 						<li><a href="#">Contact</a></li>
@@ -302,7 +305,7 @@
 						<li><a href="#">Support</a></li>
 						<li><a href="#">Privacy Policy</a></li>
 					</ul>
-				</nav>
+				</div>
 
 				<div class="nav__cta__wrap">
 					<button type="button">Request Invite</button>

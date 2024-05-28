@@ -139,14 +139,14 @@ h3 {
 	visibility: visible !important;
 }
 
-#mobile__nav__menu nav {
+#mobile__nav__menu div[role="navigation"] {
 	background-color: #fff;
 	border-radius: 4px;
 	width: 90%;
 	margin: 1.5rem auto;
 }
 
-#mobile__nav__menu nav ul {
+#mobile__nav__menu div[role="navigation"] ul {
 	list-style-type: none;
 	padding: 1.5rem 0;
 	margin: 0;
@@ -155,17 +155,17 @@ h3 {
 	gap: 1rem;
 }
 
-#mobile__nav__menu nav ul li {
+#mobile__nav__menu div[role="navigation"] ul li {
 	padding: 0.45rem 0;
 }
 
-#mobile__nav__menu nav ul li a {
+#mobile__nav__menu div[role="navigation"] ul li a {
 	display: block;
 	text-decoration: none;
 	color: var(--darkBlue);
 }
 
-#mobile__nav__menu nav ul li a:hover {
+#mobile__nav__menu div[role="navigation"] ul li a:hover {
 	color: var(--limeGreen);
 }
 
@@ -362,13 +362,13 @@ footer #social__wrap a:hover {
 	color: var(--limeGreen);
 }
 
-footer nav {
+footer div[role="navigation"] {
 	display: flex;
 	justify-content: space-between;
 	gap: 8rem;
 }
 
-footer nav ul {
+footer div[role="navigation"] ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -377,13 +377,13 @@ footer nav ul {
 	gap: 1.4rem;
 }
 
-footer nav ul li a {
+footer div[role="navigation"] ul li a {
 	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
 	font-weight: normal;
 	font-size: 1rem;
 }
-footer nav ul li a:hover {
+footer div[role="navigation"] ul li a:hover {
 	color: var(--limeGreen);
 }
 
@@ -530,7 +530,7 @@ footer #footer__copyright {
 	section#articles #article-wrap,
 	section#features #feature-cards,
 	footer #footer__wrap,
-	footer nav {
+	footer div[role="navigation"] {
 		flex-direction: column;
 	}
 
@@ -556,19 +556,19 @@ footer #footer__copyright {
 		gap: 2rem;
 	}
 
-	footer nav,
-	footer nav ul {
+	footer div[role="navigation"],
+	footer div[role="navigation"] ul {
 		align-items: center;
 	}
 
-	footer nav {
+	footer div[role="navigation"] {
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		gap: 1rem;
 		justify-content: baseline;
 	}
 
-	footer nav ul li a {
+	footer div[role="navigation"] ul li a {
 		color: #fff;
 	}
 
