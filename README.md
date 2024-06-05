@@ -1,6 +1,6 @@
-# Easybank landing page solution
+# Easybank Landing Page
 
-<a href="https://fm-easybank-landingpage.vercel.app/" target="_blank">Easybank landing page solution Live Site</a>
+<a href="https://fm-easybank-landingpage.vercel.app/" target="_blank">Easybank Landing Page Live Site</a>
 
 ## Overview
 
